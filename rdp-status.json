@@ -53,5 +53,44 @@
     "wallpaper": "xyverse_configured_for_user_logon",
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "audio_output": "rdp_playback_enabled"
+  },
+  "samp": {
+    "directplay": "Enabled",
+    "play_tested": false,
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "status": "dependencies_ready",
+    "directx": "verified_x86_x64",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "samp_installed": false,
+    "netfx3": "Enabled",
+    "gta_installed": false
+  },
+  "games": {
+    "minecraft_bedrock": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "minecraft_java": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    },
+    "samp": {
+      "samp_installed": false,
+      "game_dir": null,
+      "status": "dependencies_ready",
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false
+    },
+    "roblox": {
+      "note": "Tidak dipilih",
+      "status": "disabled"
+    }
+  },
+  "game_environment": {
+    "windows_server": true,
+    "play_tested": false,
+    "hypervisor_present": true,
+    "runner": "windows-2022",
+    "os": "Microsoft Windows Server 2022 Datacenter"
   }
 }
