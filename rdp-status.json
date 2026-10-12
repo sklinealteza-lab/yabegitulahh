@@ -92,5 +92,6 @@
     "play_tested": false,
     "hypervisor_present": true,
     "runner": "windows-2022"
-  }
+  },
+  "heartbeat_at": "2026-10-12T13:07:01.4524367Z"
 }
