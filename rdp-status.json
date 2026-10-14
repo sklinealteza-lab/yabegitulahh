@@ -105,5 +105,6 @@
     "hypervisor_present": true,
     "runner": "windows-latest",
     "windows_server": true
-  }
+  },
+  "heartbeat_at": "2026-10-14T13:58:00.4010333Z"
 }
