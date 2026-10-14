@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-2",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "active": true,
+  "hostname": "rdpfree-5",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
-    "disk_free_gb": 82.2,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 31.7,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T19:18:55Z",
-  "expires_at": "2026-10-15T01:13:55Z",
+  "started_at": "2026-10-14T19:29:28Z",
+  "expires_at": "2026-10-15T01:24:28Z",
   "duration_menit": 355,
-  "run_id": "38252719487",
-  "run_attempt": "2",
-  "run_number": "2",
-  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/38252719487",
+  "run_id": "38624065006",
+  "run_attempt": "1",
+  "run_number": "5",
+  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/38624065006",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,60 +40,18 @@
   },
   "akses": {
     "tailscale": {
-      "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "ip": "100.85.91.98",
+      "magicdns": "rdpfree-5.tail7700f3.ts.net.",
+      "status": "ok",
+      "hostname": "rdpfree-5"
     },
     "mode": "tailscale"
   },
   "media": {
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
-    "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
-    "audio_output": "rdp_playback_enabled"
-  },
-  "samp": {
-    "status": "dependencies_ready",
-    "samp_installed": false,
-    "netfx3": "Enabled",
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "gta_installed": false,
-    "directx": "verified_x86_x64",
-    "directplay": "Enabled",
-    "play_tested": false,
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
-  },
-  "game_environment": {
-    "runner": "windows-2022",
-    "play_tested": false,
-    "hypervisor_present": true,
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "windows_server": true
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "game_dir": null,
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "samp_installed": false
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "heartbeat_at": "2026-10-14T19:25:06.8578991Z",
-  "stopped_at": "2026-10-14T19:27:30Z"
+    "audio_output": "rdp_playback_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "microphone": "rdp_capture_enabled"
+  }
 }
