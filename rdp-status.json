@@ -124,5 +124,6 @@
       "status": "dependencies_ready",
       "samp_installed": false
     }
-  }
+  },
+  "heartbeat_at": "2026-10-14T19:51:35.7915295Z"
 }
