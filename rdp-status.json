@@ -53,5 +53,44 @@
     "audio_output": "rdp_playback_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
     "microphone": "rdp_capture_enabled"
+  },
+  "samp": {
+    "directx": "verified_x86_x64",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "samp_installed": false,
+    "directplay": "Enabled",
+    "play_tested": false,
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "status": "dependencies_ready",
+    "netfx3": "Enabled",
+    "gta_installed": false
+  },
+  "game_environment": {
+    "runner": "windows-2022",
+    "hypervisor_present": true,
+    "windows_server": true,
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "play_tested": false
+  },
+  "games": {
+    "samp": {
+      "status": "dependencies_ready",
+      "samp_installed": false,
+      "game_dir": null,
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "gta_installed": false
+    },
+    "minecraft_java": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
   }
 }
