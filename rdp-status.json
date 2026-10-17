@@ -92,5 +92,6 @@
     "runner": "windows-2022",
     "os": "Microsoft Windows Server 2022 Datacenter",
     "hypervisor_present": true
-  }
+  },
+  "heartbeat_at": "2026-10-17T16:56:53.4599946Z"
 }
