@@ -115,5 +115,6 @@
     "hypervisor_present": true,
     "runner": "windows-latest",
     "play_tested": false
-  }
+  },
+  "heartbeat_at": "2026-11-01T07:13:46.4869165Z"
 }
