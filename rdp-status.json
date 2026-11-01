@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-14",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "active": true,
+  "hostname": "rdpfree-15",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "cpu_threads": 4,
-    "disk_free_gb": 78.4,
-    "ram_gb": 16.0
+    "disk_free_gb": 30.5,
+    "ram_gb": 16.0,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-01T03:53:00Z",
-  "expires_at": "2026-11-01T09:48:00Z",
+  "started_at": "2026-11-01T07:06:58Z",
+  "expires_at": "2026-11-01T13:01:58Z",
   "duration_menit": 355,
-  "run_id": "41270891089",
+  "run_id": "41283415667",
   "run_attempt": "1",
-  "run_number": "14",
-  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/41270891089",
+  "run_number": "15",
+  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/41283415667",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,60 +40,18 @@
   },
   "akses": {
     "tailscale": {
+      "hostname": "rdpfree-15",
+      "magicdns": "rdpfree-15.tail7700f3.ts.net.",
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "ip": "100.100.101.1"
     },
     "mode": "tailscale"
   },
   "media": {
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
-    "audio_output": "rdp_playback_enabled",
     "wallpaper": "xyverse_configured_for_user_logon",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end."
-  },
-  "samp": {
-    "samp_installed": false,
-    "directplay": "Enabled",
-    "status": "dependencies_ready",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "directx": "verified_x86_x64",
-    "netfx3": "Enabled",
-    "play_tested": false,
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "gta_installed": false
-  },
-  "games": {
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "minecraft_java": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "status": "dependencies_ready",
-      "samp_installed": false,
-      "game_dir": null,
-      "gta_installed": false
-    }
-  },
-  "game_environment": {
-    "runner": "windows-2022",
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "play_tested": false,
-    "hypervisor_present": true,
-    "windows_server": true
-  },
-  "heartbeat_at": "2026-11-01T07:05:14.1303085Z",
-  "stopped_at": "2026-11-01T07:06:34Z"
+    "audio_output": "rdp_playback_enabled"
+  }
 }
