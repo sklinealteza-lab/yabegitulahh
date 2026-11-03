@@ -5,19 +5,19 @@
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
     "cpu_threads": 4,
+    "ram_gb": 16.0,
     "disk_free_gb": 81.0
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-03T19:12:50Z",
-  "expires_at": "2026-11-04T01:07:50Z",
+  "started_at": "2026-11-03T19:14:52Z",
+  "expires_at": "2026-11-04T01:09:52Z",
   "duration_menit": 355,
   "run_id": "41701105568",
-  "run_attempt": "1",
+  "run_attempt": "2",
   "run_number": "19",
   "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/41701105568",
   "mode": "bersih+win10",
@@ -39,7 +39,6 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "akses": {
-    "mode": "tailscale",
     "tailscale": {
       "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "status": "failed",
@@ -47,7 +46,8 @@
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
-    }
+    },
+    "mode": "tailscale"
   },
-  "stopped_at": "2026-11-03T19:13:02Z"
+  "stopped_at": "2026-11-03T19:15:04Z"
 }
