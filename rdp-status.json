@@ -53,5 +53,46 @@
     "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
     "wallpaper": "xyverse_configured_for_user_logon"
+  },
+  "samp": {
+    "directx": "verified_x86_x64",
+    "netfx3": "Enabled",
+    "status": "dependencies_ready",
+    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+    "vcredist": "verified_x86_x64_and_2013_x86",
+    "directplay": "Enabled",
+    "samp_installed": false,
+    "play_tested": false,
+    "gta_installed": false
+  },
+  "games": {
+    "roblox": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    },
+    "samp": {
+      "samp_installed": false,
+      "gta_installed": false,
+      "status": "dependencies_ready",
+      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
+      "game_dir": null
+    },
+    "minecraft_java": {
+      "compatibility": "Launcher resmi mengelola runtime Java. Akun berlisensi dan dukungan OpenGL/GPU tetap diperlukan.",
+      "status": "installer_ready",
+      "note": "Buka installer di sesi Windows, login dengan akun berlisensi, lalu uji game. Belum berarti game sudah berjalan.",
+      "path": "C:\\Users\\Public\\Desktop\\RdpFree Installers\\MinecraftInstaller.msi"
+    },
+    "minecraft_bedrock": {
+      "status": "disabled",
+      "note": "Tidak dipilih"
+    }
+  },
+  "game_environment": {
+    "hypervisor_present": true,
+    "os": "Microsoft Windows Server 2022 Datacenter",
+    "runner": "windows-2022",
+    "windows_server": true,
+    "play_tested": false
   }
 }
