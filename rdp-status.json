@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-23",
+  "active": true,
+  "hostname": "rdpfree-24",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
     "ram_gb": 16.0,
-    "cpu_threads": 4,
-    "disk_free_gb": 78.7
+    "disk_free_gb": 77.6,
+    "cpu_threads": 4
   },
   "rdp_port": 3389,
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-06T05:52:57Z",
-  "expires_at": "2026-11-06T11:47:57Z",
+  "started_at": "2026-11-15T11:17:57Z",
+  "expires_at": "2026-11-15T17:12:57Z",
   "duration_menit": 355,
-  "run_id": "42170998104",
+  "run_id": "43708224477",
   "run_attempt": "1",
-  "run_number": "23",
-  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/42170998104",
+  "run_number": "24",
+  "run_url": "https://github.com/sklinealteza-lab/yabegitulahh/actions/runs/43708224477",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,62 +40,18 @@
   },
   "akses": {
     "tailscale": {
+      "hostname": "rdpfree-24",
+      "ip": "100.69.71.48",
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "magicdns": "rdpfree-24.tail7700f3.ts.net."
     },
     "mode": "tailscale"
   },
   "media": {
-    "audio_output": "rdp_playback_enabled",
-    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
     "microphone": "rdp_capture_enabled",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "audio_output": "rdp_playback_enabled",
     "wallpaper": "xyverse_configured_for_user_logon"
-  },
-  "samp": {
-    "directx": "verified_x86_x64",
-    "netfx3": "Enabled",
-    "status": "dependencies_ready",
-    "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-    "vcredist": "verified_x86_x64_and_2013_x86",
-    "directplay": "Enabled",
-    "samp_installed": false,
-    "play_tested": false,
-    "gta_installed": false
-  },
-  "games": {
-    "roblox": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    },
-    "samp": {
-      "samp_installed": false,
-      "gta_installed": false,
-      "status": "dependencies_ready",
-      "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji.",
-      "game_dir": null
-    },
-    "minecraft_java": {
-      "compatibility": "Launcher resmi mengelola runtime Java. Akun berlisensi dan dukungan OpenGL/GPU tetap diperlukan.",
-      "status": "installer_ready",
-      "note": "Buka installer di sesi Windows, login dengan akun berlisensi, lalu uji game. Belum berarti game sudah berjalan.",
-      "path": "C:\\Users\\Public\\Desktop\\RdpFree Installers\\MinecraftInstaller.msi"
-    },
-    "minecraft_bedrock": {
-      "status": "disabled",
-      "note": "Tidak dipilih"
-    }
-  },
-  "game_environment": {
-    "hypervisor_present": true,
-    "os": "Microsoft Windows Server 2022 Datacenter",
-    "runner": "windows-2022",
-    "windows_server": true,
-    "play_tested": false
-  },
-  "heartbeat_at": "2026-11-06T11:43:28.8759128Z",
-  "stopped_at": "2026-11-06T11:45:58Z"
+  }
 }
